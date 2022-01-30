@@ -1,0 +1,51 @@
+UserID,Name,Path,Time,Correctness,Module Position,Cognitive Complexity,McCC,TCLOC,LOC,TLLOC,NL,Path_y
+1,Object stringToValue(String string),JSONObject.java,49,1,2267,9,9,17,30,22,2,JSONObject.java
+1,"Writer write(Writer writer, int indentFactor, int indent)",JSONObject.java,26,1,2565,23,12,27,54,53,5,JSONObject.java
+1,"BigInteger objectToBigInteger(Object val, BigInteger defaultValue)",JSONObject.java,35,1,1231,11,13,12,36,30,2,JSONObject.java
+1,Object nextMeta(),XMLTokener.java,27,1,200,18,25,12,56,56,3,XMLTokener.java
+1,int findStringEnd(JsonIterator iter),IterImplSkip.java,22,1,59,24,10,7,30,26,5,IterImplSkip.java
+1,int parse(JsonIterator iter),IterImplString.java,18,1,68,6,5,6,28,23,2,IterImplString.java
+1,Slice readSlice(JsonIterator iter),IterImplForStreaming.java,21,1,199,8,6,3,34,32,2,IterImplForStreaming.java
+1,"Decoder createDecoder(String cacheKey, Type type)",extra/GsonCompatibilityMode.java,24,1,334,46,8,0,26,112,7,extra\GsonCompatibilityMode.java
+2,"Writer write(Writer writer, int indentFactor, int indent)",JSONObject.java,32,1,2565,23,12,27,54,53,5,JSONObject.java
+2,Object nextValue(),JSONTokener.java,77,1,421,5,9,15,40,28,1,JSONTokener.java
+2,Object nextToken(),XMLTokener.java,31,1,268,22,28,12,74,68,3,XMLTokener.java
+2,String unescape(String string),XML.java,20,1,199,8,4,11,23,19,3,XML.java
+2,"String updateBindingSetOp(String rendered, Binding binding)",CodegenImplObjectStrict.java,10,1,202,15,8,3,37,34,3,CodegenImplObjectStrict.java
+2,"void writeFloat(JsonStream stream, float val)",output/StreamImplNumber.java,44,1,213,10,9,1,35,35,2,output\StreamImplNumber.java
+2,Any fillCacheUntil(int target),any/ArrayLazyAny.java,26,1,158,12,10,0,43,43,3,any\ArrayLazyAny.java
+2,"Decoder createDecoder(String cacheKey, Type type)",extra/GsonCompatibilityMode.java,25,1,334,46,8,0,26,112,7,extra\GsonCompatibilityMode.java
+3,Object nextMeta(),XMLTokener.java,38,1,200,18,25,12,56,56,3,XMLTokener.java
+3,Object nextValue(),JSONTokener.java,30,1,421,5,9,15,40,28,1,JSONTokener.java
+3,Object wrap(Object object),JSONObject.java,13,1,2433,10,26,12,40,39,2,JSONObject.java
+3,void populateMap(Object bean),JSONObject.java,33,1,1522,36,17,13,40,33,7,JSONObject.java
+3,int findStringEnd(JsonIterator iter),IterImplSkip.java,29,1,59,24,10,7,30,26,5,IterImplSkip.java
+3,void skipArray(JsonIterator iter),IterImplForStreaming.java,14,1,61,12,8,5,29,27,4,IterImplForStreaming.java
+3,Any fillCacheUntil(int target),any\ArrayLazyAny.java,32,1,158,12,10,0,43,43,3,any\ArrayLazyAny.java
+3,"void skipFixedBytes(JsonIterator iter, int n)",IterImplForStreaming.java,16,1,362,6,4,0,14,14,3,IterImplForStreaming.java
+4,"Decoder createDecoder(String cacheKey, Type type)",extra/GsonCompatibilityMode.java,28,1,334,46,8,0,26,112,7,extra\GsonCompatibilityMode.java
+5,Object nextToken(),XMLTokener.java,40,1,268,22,28,12,74,68,3,XMLTokener.java
+1,String toString(JSONArray ja),JSONML.java,23,1,394,21,10,10,70,59,6,JSONML.java
+1,String unescape(String string),XML.java,19,1,199,8,4,11,23,19,3,XML.java
+1,void populateMap(Object bean),JSONObject.java,41,1,1522,36,17,13,40,33,7,JSONObject.java
+1,JSONObject toJSONObject(String string),Cookie.java,21,1,89,12,8,28,44,33,2,Cookie.java
+1,void enableDecoders(),extra/Base64FloatSupport.java,37,1,98,12,1,0,10,50,0,extra\Base64FloatSupport.java
+1,"void writeRaw(String val, int remaining)",output/JsonStream.java,16,1,154,5,4,0,25,25,2,output\JsonStream.java
+1,Any fillCacheUntil(int target),any/ArrayLazyAny.java,29,1,158,12,10,0,43,43,3,any\ArrayLazyAny.java
+1,Object read(),JsonIterator.java,25,1,287,11,13,0,42,42,4,JsonIterator.java
+2,String toString(JSONArray ja),JSONML.java,27,1,394,21,10,10,70,59,6,JSONML.java
+2,"BigInteger objectToBigInteger(Object val, BigInteger defaultValue)",JSONObject.java,22,1,1231,11,13,12,36,30,2,JSONObject.java
+2,JSONArray(JSONTokener x),JSONArray.java,28,1,106,20,11,11,44,40,4,JSONArray.java
+2,float getFloat(int index),JSONArray.java,9,1,326,2,3,10,11,11,1,JSONArray.java
+2,Object read(),JsonIterator.java,32,1,287,11,13,0,42,42,4,JsonIterator.java
+2,int parse(JsonIterator iter),IterImplString.java,22,1,68,6,5,6,28,23,2,IterImplString.java
+2,boolean equals(Object o),extra/GsonCompatibilityMode.java,19,1,171,5,15,0,21,19,1,extra\GsonCompatibilityMode.java
+2,"void skipFixedBytes(JsonIterator iter, int n)",IterImplForStreaming.java,16,1,362,6,4,0,14,14,3,IterImplForStreaming.java
+3,boolean similar(Object other),JSONObject.java,52,1,2085,23,15,8,39,39,6,JSONObject.java
+3,"Writer write(Writer writer, int indentFactor, int indent)",JSONObject.java,38,1,2565,23,12,27,54,53,5,JSONObject.java
+3,JSONArray(JSONTokener x),JSONArray.java,25,1,106,20,11,11,44,40,4,JSONArray.java
+3,String unescape(String string),XML.java,24,1,199,8,4,11,23,19,3,XML.java
+3,"Decoder createDecoder(String cacheKey, Type type)",extra\GsonCompatibilityMode.java,32,1,334,46,8,0,26,112,7,extra\GsonCompatibilityMode.java
+3,"void enocde_(Object obj, JsonStream stream)",output\ReflectionObjectEncoder.java,40,1,65,21,10,0,42,42,4,output\ReflectionObjectEncoder.java
+3,void enableDecoders(),extra\Base64FloatSupport.java,33,1,98,12,1,0,10,50,0,extra\Base64FloatSupport.java
+3,boolean equals(Object o),extra\GsonCompatibilityMode.java,17,1,171,5,15,0,21,19,1,extra\GsonCompatibilityMode.java
